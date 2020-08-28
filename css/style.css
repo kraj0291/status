@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.containerDiv{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height: 550px;
+    width:900px;
+    border:10px dashed rgb(201, 201, 201);
+    border-radius: 35px 35px;
+}
+
+.logo{
+    position: absolute;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.data{
+    margin-top: 70px;
+    padding-left: 20px;
+}
+
+.data>p{
+    font-size: 4.5em;
+}
